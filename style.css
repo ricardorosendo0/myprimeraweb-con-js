@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0d5676;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 0 0 8px;
+}
+
+header {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-bottom: 1px solid rgba(0, 0,0, 0.3)    
+}
+
+.shows {
+    padding: 16px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-fluid{
+    display: contents;
+}
+.card{
+    margin-bottom: 30px;
+}
+
+ .card p{     
+        font-size: 14px;    
+        display: block;
+        display: -webkit-box;
+        max-width: 100%;        
+        margin: 0 auto;
+        line-height: 1.5;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;    
+        margin-bottom: 3px;
+        
+}
+
+.card .ajusteLink{
+    text-decoration: none;
+    display: contents;
+    color: initial;
+}
+
+.card .btn {
+    margin: 10px 0px;
+}
+
+footer {
+    padding: 1em;
+}
+
